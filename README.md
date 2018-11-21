@@ -28,3 +28,6 @@
 		}
 	}
 ```
+
+## Processes
+>When I'm presented with a problem, the first thing I do is plan the structure of the program, without writing it. Once I have an idea of how I want to organize the code, I start planning individual methods. I'll use scratch paper to sketch it out, check the API and look for existing methods that I can use to solve the problem in the most efficient way possible. 
