@@ -1,5 +1,6 @@
 # Sam Eriksen-Schultz
 
+### Repository links
 * [Lightning](https://github.com/SamEriksenSchultz/lightning2/blob/gh-pages/Lightning.pde)
 * [Dice](https://github.com/SamEriksenSchultz/dice3/tree/gh-pages)
 * [CHEMOTAXIS](https://github.com/SamEriksenSchultz/chemotaxis4/tree/gh-pages)
@@ -30,4 +31,4 @@
 ```
 
 ## Processes
->When I'm presented with a problem, the first thing I do is plan the structure of the program, without writing it. Once I have an idea of how I want to organize the code, I start planning individual methods. I'll use scratch paper to sketch it out, check the API and look for existing methods that I can use to solve the problem in the most efficient way possible. 
+>When I'm presented with a problem, the first thing I do is plan the structure of the program, without writing it. Once I have an idea of how I want to organize the code, I start planning individual methods. I'll use scratch paper to sketch it out, check the API and look for existing methods that I can use to solve the problem in the most efficient way possible. Once I start writing the actual code, I'll set goals for myself, i.e. finish these 3 methods today, finish this class by the end of thr week, etc. When I run into problems, first I'll look for how people with similar problems approached it, and if I can apply it to my program. If that doesn't work, I'll try asking my friends how they would do it, compare solutions, and try to work towards a promise. <br> 
