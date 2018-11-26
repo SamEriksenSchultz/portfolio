@@ -1,11 +1,26 @@
 # Sam Eriksen-Schultz
 
-### Repository links
-* [Lightning](https://github.com/SamEriksenSchultz/lightning2/blob/gh-pages/Lightning.pde)
-* [Dice](https://github.com/SamEriksenSchultz/dice3/tree/gh-pages)
-* [CHEMOTAXIS](https://github.com/SamEriksenSchultz/chemotaxis4/tree/gh-pages)
-* [Starfield](https://github.com/SamEriksenSchultz/starfield5)
-* [Quiz Taker](https://github.com/SamEriksenSchultz/starfield5)
+## Projects
+<details>
+<summary>Lightning</summary>
+	<a href="https://github.com/SamEriksenSchultz/lightning2">repo link</a>
+</details>
+<details>
+<summary>Dice</summary>
+	<a href="https://github.com/SamEriksenSchultz/dice3">repo link</a>
+</details>
+<details>
+<summary>Chemotaxis</summary>
+	<a href="https://github.com/SamEriksenSchultz/chemotaxis4">repo link</a>
+</details>
+<details>
+<summary>Starfield</summary>
+	<a href="https://github.com/SamEriksenSchultz/starfield5">repo link</a>
+</details>
+<details>
+<summary>Quiz Taker</summary>
+	<a href="https://github.com/SamEriksenSchultz/quizTaker">repo link</a>
+</details>
 
 ## Reflection 
 >The main benefit I got from these projects was getting better at managing my projects, from organization to general time management. I learned to better organize my projects to increase my efficiency, and set realistic expectations for myself so I could complete my assignments in a timely manner.
