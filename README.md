@@ -3,7 +3,27 @@
 ## Projects
 <details>
 <summary>Lightning</summary>
-	<a href="https://github.com/SamEriksenSchultz/lightning2">repo link</a>
+	<br><a href="https://github.com/SamEriksenSchultz/lightning2">repo link</a>
+	<p>
+		<br>The goal with this project was to practice applying Math.random() and Processing to create a "lightning storm". <br><br>
+		This is the "meat" of this assigment, a method in the Lightning class that generates a random color, path, and stroke for each lightning bolt. 
+	
+	void init(){ 
+    		randColor=new PVector((int)random(0,255),(int)random(0,255),(int)random(0,255));
+    		int stroke=int(random(0,10));
+		
+    		while(y<800){
+     			int endX = x + int(random(-4,4));
+     			int endY = y + 2;
+     			strokeWeight(stroke);
+     			stroke(randColor.x,randColor.y,randColor.z); 
+     			line(x,y,endX,endY);
+     			x = endX;   
+     			y = endY;  
+    		} 
+    
+  	}
+</p>	
 </details>
 <details>
 <summary>Dice</summary>
