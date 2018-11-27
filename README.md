@@ -75,9 +75,41 @@
 
 </p>
 </details>
+
 <details>
 <summary>Starfield</summary>
-	<a href="https://github.com/SamEriksenSchultz/starfield5">repo link</a>
+	<br><a href="https://github.com/SamEriksenSchultz/starfield5">repo link</a><br><br>
+	<p>
+		This lab was introduced as a simple way of practicing accessing data from object-based data structures, but I wanted to do something a little more complex. This was my first project using PImages, which were not as intimidating as I had previously thought. This was also my first project using PFont (yay).<br><br>
+		My biggest breakthrough from this project was using PImage arrays and delays to create simple animations. While ripping the sprites I also managed to brush up on my GIMP skills. 
+		
+	void update(){
+    		SpaceshipPosition.x+=(d-a)*speed;
+    		imageMode(CENTER);
+    
+    		if(mainTurning){
+      			PImage i=mainTurn[(int)currentFrame];
+      			image(i,SpaceshipPosition.x,SpaceshipPosition.y,32,32);
+      			currentFrame+=0.5;
+      			if(currentFrame==turnFrames){
+        				currentFrame=0;
+        				mainTurning=false;
+      			}
+    		} else if(!dead){
+      			image(mainTurn[0],SpaceshipPosition.x,SpaceshipPosition.y,32,32);
+    		} else if(dead && mainExping){
+      			PImage i=mainExp[(int)currentFrame];
+      			image(i,SpaceshipPosition.x,SpaceshipPosition.y,32,32);
+     			currentFrame+=0.1;
+      			if((expFrames-currentFrame)<0.1){
+        				currentFrame=0;
+        				mainExping=false;
+      			}
+    		}
+  	}
+</p>
+	<br>While this method does in fact, work, I should have split all of the animations into different methods so the code is easier to understand. I did make a conscious effort to use interfaces, inheritance, and organized methods to make my code easier to interpret, but I'm clearly still learning
+
 </details>
 <details>
 <summary>Quiz Taker</summary>
