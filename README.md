@@ -109,7 +109,7 @@
   	}
 </p>
 	<br>While this method does in fact, work, I should have split all of the animations into different methods so the code is easier to understand. I did make a conscious effort to use interfaces, inheritance, and organized methods to make my code easier to interpret, but I'm clearly still learning
-
+<br>
 </details>
 <details>
 <summary>Quiz Taker</summary>
