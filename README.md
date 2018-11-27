@@ -63,7 +63,10 @@
 
 <details>
 <summary>Chemotaxis</summary>
-	<a href="https://github.com/SamEriksenSchultz/chemotaxis4">repo link</a>
+	<br><a href="https://github.com/SamEriksenSchultz/chemotaxis4">repo link</a><br><br>
+	<p>
+		
+</p>
 </details>
 <details>
 <summary>Starfield</summary>
