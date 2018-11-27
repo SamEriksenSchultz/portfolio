@@ -28,7 +28,7 @@
 
 <details>
 <summary>Dice</summary>
-	<a href="https://github.com/SamEriksenSchultz/dice3">repo link</a><br><br>
+	<br><a href="https://github.com/SamEriksenSchultz/dice3">repo link</a><br><br>
 	<p>
 	The purpose of this project was to practice changing graphics and general code structure. <br><br>
 	This was the highlight of my code: using multiple methods, the user can drag and drop the Die object with an offset based on where the Die was clicked. I tried to turn it into a game but I ran into time constraints and it didn't come out the way I had envisioned it. <br><br>
@@ -59,8 +59,8 @@
 	}
 	
 </p>
-
 </details>
+
 <details>
 <summary>Chemotaxis</summary>
 	<a href="https://github.com/SamEriksenSchultz/chemotaxis4">repo link</a>
