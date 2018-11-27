@@ -1,6 +1,6 @@
 # Sam Eriksen-Schultz
 
-## Projects - Disclaimer: none of these work with the js compilier
+## Projects
 <details>
 <summary>Lightning</summary>
 	<br><a href="https://github.com/SamEriksenSchultz/lightning2">repo link</a>
@@ -65,7 +65,14 @@
 <summary>Chemotaxis</summary>
 	<br><a href="https://github.com/SamEriksenSchultz/chemotaxis4">repo link</a><br><br>
 	<p>
+	The purpose of the Chemotaxis project was to practice creativity in problem-solving when presented with a task. In this instance, the task was to create a data structure of "psuedo-AI" that would travel towards a given point.<br><br>
+		In order to give the dots "path-finding", I used basic trigonometry and the atan2() method to calculate the hypotenuse between the two given points. This was also excellent practice for working with PVectors instead of individual coordinates.
 		
+	targetLocation=new PVector(GoalLocation.x,GoalLocation.y);
+    float thetaRadians=atan2(targetLocation.y-location.y,targetLocation.x-location.x);
+    velocity=new PVector((float)Math.cos(thetaRadians)*4,(float)Math.sin(thetaRadians)*4);
+	location.add(velocity);
+
 </p>
 </details>
 <details>
