@@ -25,9 +25,41 @@
   	}
 </p>	
 </details>
+
 <details>
 <summary>Dice</summary>
-	<a href="https://github.com/SamEriksenSchultz/dice3">repo link</a>
+	<a href="https://github.com/SamEriksenSchultz/dice3">repo link</a><br><br>
+	<p>
+	The purpose of this project was to practice changing graphics and general code structure. <br><br>
+	This was the highlight of my code: using multiple methods, the user can drag and drop the Die object with an offset based on where the Die was clicked. I tried to turn it into a game but I ran into time constraints and it didn't come out the way I had envisioned it. <br><br>
+		This first method locks the offset of the user click compared to the coordinates of the Die, and stores it to an x and y float.
+	
+	void mousePressed() {
+  
+  	if(overDie) { 
+    		locked = true; 
+    		fill(255, 255, 255);
+  	} else {
+    		locked = false;
+  	}
+  	xOffset = mouseX-location.x; 
+  	yOffset = mouseY-location.y;
+	
+	}
+</p>
+	<p>
+	The second method adjusts the Die location based on the mouse location minus the previously updated offsets.
+
+	void mouseDragged() {
+  	
+	if(locked) {
+    		location.x = mouseX-xOffset; 
+    		location.y = mouseY-yOffset; 
+  		}
+	}
+	
+</p>
+
 </details>
 <details>
 <summary>Chemotaxis</summary>
