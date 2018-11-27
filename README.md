@@ -1,6 +1,6 @@
 # Sam Eriksen-Schultz
 
-## Projects
+## Projects - Disclaimer: none of these work with the js compilier
 <details>
 <summary>Lightning</summary>
 	<br><a href="https://github.com/SamEriksenSchultz/lightning2">repo link</a>
